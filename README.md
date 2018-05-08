@@ -51,11 +51,15 @@ Make yours work like it. Your local app is using a light theme, and the referenc
 
 If you run into any problems or error messages, **use the server log to help figure out what's going on.**
 
----
+I've already generated both database tables and models for you, so you just have to do build the interface for users to CRUD records. All in all, you need to:
 
-All in all, you need to:
+ - Build the Golden Seven for Students from scratch.
+ - Build the Golden Seven for Courses from scratch.
 
- - Build the Golden Seven for Students from scratch
- - Build the Golden Seven for Courses from scratch
+Some tools that you've got:
 
-I've already generated the models for you, so you just have to do the RCAVs.
+ - You can use the `rails console`.
+ - You can navigate to `/admin` to see the admin dashboard; sign in with username: `admin@example.com` and password: `password`.
+ - When you ran `bin/setup`, it included a script to pre-populate both tables with some dummy data for you. You can see what's there using either `rails console` or the admin dashboard.
+
+Again, [the README for Photogram Golden 7](https://github.com/appdev-projects/photogram-golden-7#photogram-golden-seven) will be a good guide to follow; the Golden 7 are pretty formulaic.
