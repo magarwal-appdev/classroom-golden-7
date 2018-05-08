@@ -2,12 +2,12 @@
 
 ## Setup
 
- 1. Clone this repo to your workspace as usual
+ 1. [Setup your Cloud9 workspace as usual.](https://guides.firstdraft.com/starting-on-a-project-in-cloud9)
  1. In a Terminal, run `bin/setup` as usual.
- 1. In a Terminal, run `bin/server` as usual.
- 1. Preview running application as usual.
- 1. Note: as you are working and running into error messages, you may be prompted to run a different `bin/whitelist X.X.X.X` command each time your IP address/location changes; copy-paste it into a terminal prompt if so.
- 1. Check your progress/submit your work with `rails grade:all` as usual.
+ 1. Click Run Project to start the app.
+ 1. Navigate to the app in Chrome.
+ 1. Note: as you are working and running into error messages, you may be prompted to run a different `bin/whitelist X.X.X.X` command each time your IP address/location changes; copy-paste it into a Terminal prompt if so in order to get much more helpful error messages, including an interactive console where you can poke at your variables to see what's going wrong.
+ 1. Check your progress/submit your work with `rails grade` as usual.
 
 > If at any point `rspec` fails with the message "Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_ENV=test" then run
 >
