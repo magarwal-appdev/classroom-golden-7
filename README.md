@@ -9,9 +9,13 @@
  1. Note: as you are working and running into error messages, you may be prompted to run a different `bin/whitelist X.X.X.X` command each time your IP address/location changes; copy-paste it into a Terminal prompt if so in order to get much more helpful error messages, including an interactive console where you can poke at your variables to see what's going wrong.
  1. Check your progress/submit your work with `rails grade` as usual.
 
-> If at any point `rspec` fails with the message "Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_ENV=test" then run
->
-> `rails db:migrate RAILS_ENV=test`
+**If at any point `rails grade` or `rspec` fails with the message "Migrations are pending:**
+
+Then open a Terminal prompt and run:
+
+```
+rails db:migrate RAILS_ENV=test
+```
 
 ## Introduction
 
