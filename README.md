@@ -62,6 +62,7 @@ I've already generated both database tables and models for you, so you just have
 
 Some tools that you've got:
 
+ - You can seed the database with dummy data using `rails dev:prime`
  - You can use the `rails console`.
  - You can navigate to `/admin` to see the admin dashboard; sign in with username: `admin@example.com` and password: `password`.
  - When you ran `bin/setup`, it included a script to pre-populate both tables with some dummy data for you. You can see what's there using either `rails console` or the admin dashboard.
