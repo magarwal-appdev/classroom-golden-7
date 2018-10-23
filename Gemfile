@@ -47,6 +47,8 @@ end
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+  gem "better_errors"
+  gem "binding_of_caller"
   gem "dotenv-rails"
   gem "pry-rails"
   gem "grade_runner", github: "firstdraft/grade_runner"
@@ -54,13 +56,11 @@ group :development, :test do
   gem "awesome_print"
   gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"
   gem "draft_log", github: "firstdraft/draft_log"
-  gem "better_errors"
 end
 
 group :development do
   gem "annotate"
   gem "dev_toolbar", github: "firstdraft/dev_toolbar"
-  gem "binding_of_caller"
   gem "draft_generators", github: "firstdraft/draft_generators"
   gem "letter_opener"
   gem "meta_request"
@@ -74,6 +74,6 @@ group :test do
   gem "webmock"
 end
 
-gem "activeadmin", github: "activeadmin/activeadmin"
-gem "devise", github: "plataformatec/devise"
+gem "activeadmin"
+gem "devise"
 gem "faker", github: "stympy/faker"
